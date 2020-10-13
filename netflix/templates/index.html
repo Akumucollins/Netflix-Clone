@@ -1,0 +1,39 @@
+{% load static %}
+{% include "head.html" %}
+<section>
+    <header>
+        <div style="background-image:url('https://i.pinimg.com/originals/09/2b/0f/092b0ffd9a0c229917b7ce3233b734db.jpg');
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center center;
+            min-height:637px">
+            <div class="container h-100 d-flex justify-content-center align-items-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="showcase">
+                            <div class="showcase-top">
+                                <img src="/static/img/logo.jpg" alt="Netflix">
+                                <a href="#" class="btn btn-round"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="text-content">
+                            <h1>See what's next</h1>
+                            <p>Watch anywhere. Cancel anytime</p>
+                            <a href="#" class="btn btn-xl">
+                                Watch Free For 30 Days <i class="fas fa-chevron-right btn-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</section>
+
+<section style="height: 80px;">
+    {% include "footer.html" %}
+</section>
+
+{% include "scripts.html" %}

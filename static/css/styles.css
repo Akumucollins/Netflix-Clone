@@ -1,0 +1,13 @@
+h1, 
+p {
+    color: #ffffff;
+    font-size:35px;
+    font-family: 'Special Elite', cursive;
+}
+
+.showcase-content a {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Special Elite', cursive;
+    font-weight: bold; 
+}
